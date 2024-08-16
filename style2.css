@@ -1,0 +1,118 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: font-family:sans-serif;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+}
+
+.intro{
+  position: relative;
+  padding-bottom: 45px;
+  width: 55%;
+  
+  }
+  .intro:after{
+  content: "";
+  
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  border-bottom: 3px solid dodgerblue;;
+  }
+.introduction{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  margin-top: 60px;
+}
+p {
+ text-align: center;
+ line-height: 30px;
+ font-size: 20px;
+}
+.image-gallary{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 40px;
+  
+
+
+
+}
+
+  .gallary1
+ 
+ {
+    display: flex;
+   justify-content: center;
+    height: 70%;
+    width: 70%;
+    
+}
+.first-img1{
+  flex-basis: 50%;
+  width:30%;
+  object-fit: cover;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  
+}
+.first-img2{
+  flex-basis: 50%;
+  width:70% ;
+  object-fit: cover; 
+  margin-bottom: 30px;
+}
+.first-img3{
+  flex-basis: 50%;
+  width: 70%;
+  object-fit: cover; 
+  margin-right: 30px;
+}
+.first-img4{
+  flex-basis: 50%;
+  width: 30%;
+  object-fit: cover; 
+}
+@media(min-width:800px) {
+  .first-img1{
+    flex-basis: 60%;
+    width: 40%;
+    object-fit: cover;
+    margin-bottom: 30px;}}
+    @media(min-width:800px) {
+      .first-img2{
+        flex-basis: 60%;
+        width: 60%;
+        object-fit: cover;
+        margin-bottom: 30px;
+      }}
+      @media(min-width:800px) {
+        .first-img3{
+          flex-basis: 60%;
+          width: 60%;
+          object-fit: cover; 
+          margin-right: 30px;}}
+          @media(min-width:800px) {
+            .first-img4{
+              flex-basis: 60%;
+              width: 40%;
+              object-fit: cover; }}
